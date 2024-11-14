@@ -37,31 +37,31 @@ Models:
     URL: https://arxiv.org/abs/1903.11816
   Code: https://github.com/open-mmlab/mmsegmentation/blob/v0.18.0/mmseg/models/necks/jpu.py#L12
   Framework: PyTorch
-- Name: fastfcn_r50-d32_jpu_aspp_4xb2-80k_cityscapes-512x1024
-  In Collection: FastFCN
-  Results:
-    Task: Semantic Segmentation
-    Dataset: Cityscapes
-    Metrics:
-      mIoU: 79.52
-      mIoU(ms+flip): 80.91
-  Config: configs/fastfcn/fastfcn_r50-d32_jpu_aspp_4xb2-80k_cityscapes-512x1024.py
-  Metadata:
-    Training Data: Cityscapes
-    Batch Size: 8
-    Architecture:
-    - R-50-D32
-    - FastFCN
-    - DeepLabV3
-    Training Resources: 4x V100 GPUS
-    Memory (GB): 9.79
-  Weights: https://download.openmmlab.com/mmsegmentation/v0.5/fastfcn/fastfcn_r50-d32_jpu_aspp_4x4_512x1024_80k_cityscapes/fastfcn_r50-d32_jpu_aspp_4x4_512x1024_80k_cityscapes_20210924_214357-72220849.pth
-  Training log: https://download.openmmlab.com/mmsegmentation/v0.5/fastfcn/fastfcn_r50-d32_jpu_aspp_4x4_512x1024_80k_cityscapes/fastfcn_r50-d32_jpu_aspp_4x4_512x1024_80k_cityscapes_20210924_214357.log.json
-  Paper:
-    Title: 'FastFCN: Rethinking Dilated Convolution in the Backbone for Semantic Segmentation'
-    URL: https://arxiv.org/abs/1903.11816
-  Code: https://github.com/open-mmlab/mmsegmentation/blob/v0.18.0/mmseg/models/necks/jpu.py#L12
-  Framework: PyTorch
+# - Name: fastfcn_r50-d32_jpu_aspp_4xb2-80k_cityscapes-512x1024
+#   In Collection: FastFCN
+#   Results:
+#     Task: Semantic Segmentation
+#     Dataset: Cityscapes
+#     Metrics:
+#       mIoU: 79.52
+#       mIoU(ms+flip): 80.91
+#   Config: configs/fastfcn/fastfcn_r50-d32_jpu_aspp_4xb2-80k_cityscapes-512x1024.py
+#   Metadata:
+#     Training Data: Cityscapes
+#     Batch Size: 8
+#     Architecture:
+#     - R-50-D32
+#     - FastFCN
+#     - DeepLabV3
+#     Training Resources: 4x V100 GPUS
+#     Memory (GB): 9.79
+#   Weights: https://download.openmmlab.com/mmsegmentation/v0.5/fastfcn/fastfcn_r50-d32_jpu_aspp_4x4_512x1024_80k_cityscapes/fastfcn_r50-d32_jpu_aspp_4x4_512x1024_80k_cityscapes_20210924_214357-72220849.pth
+#   Training log: https://download.openmmlab.com/mmsegmentation/v0.5/fastfcn/fastfcn_r50-d32_jpu_aspp_4x4_512x1024_80k_cityscapes/fastfcn_r50-d32_jpu_aspp_4x4_512x1024_80k_cityscapes_20210924_214357.log.json
+#   Paper:
+#     Title: 'FastFCN: Rethinking Dilated Convolution in the Backbone for Semantic Segmentation'
+#     URL: https://arxiv.org/abs/1903.11816
+#   Code: https://github.com/open-mmlab/mmsegmentation/blob/v0.18.0/mmseg/models/necks/jpu.py#L12
+#   Framework: PyTorch
 - Name: fastfcn_r50-d32_jpu_psp_4xb2-80k_cityscapes-512x1024
   In Collection: FastFCN
   Results:
@@ -87,31 +87,31 @@ Models:
     URL: https://arxiv.org/abs/1903.11816
   Code: https://github.com/open-mmlab/mmsegmentation/blob/v0.18.0/mmseg/models/necks/jpu.py#L12
   Framework: PyTorch
-- Name: fastfcn_r50-d32_jpu_psp_4xb2-80k_cityscapes-512x1024
-  In Collection: FastFCN
-  Results:
-    Task: Semantic Segmentation
-    Dataset: Cityscapes
-    Metrics:
-      mIoU: 78.76
-      mIoU(ms+flip): 80.03
-  Config: configs/fastfcn/fastfcn_r50-d32_jpu_psp_4xb2-80k_cityscapes-512x1024.py
-  Metadata:
-    Training Data: Cityscapes
-    Batch Size: 8
-    Architecture:
-    - R-50-D32
-    - FastFCN
-    - PSPNet
-    Training Resources: 4x V100 GPUS
-    Memory (GB): 9.94
-  Weights: https://download.openmmlab.com/mmsegmentation/v0.5/fastfcn/fastfcn_r50-d32_jpu_psp_4x4_512x1024_80k_cityscapes/fastfcn_r50-d32_jpu_psp_4x4_512x1024_80k_cityscapes_20210925_061841-77e87b0a.pth
-  Training log: https://download.openmmlab.com/mmsegmentation/v0.5/fastfcn/fastfcn_r50-d32_jpu_psp_4x4_512x1024_80k_cityscapes/fastfcn_r50-d32_jpu_psp_4x4_512x1024_80k_cityscapes_20210925_061841.log.json
-  Paper:
-    Title: 'FastFCN: Rethinking Dilated Convolution in the Backbone for Semantic Segmentation'
-    URL: https://arxiv.org/abs/1903.11816
-  Code: https://github.com/open-mmlab/mmsegmentation/blob/v0.18.0/mmseg/models/necks/jpu.py#L12
-  Framework: PyTorch
+# - Name: fastfcn_r50-d32_jpu_psp_4xb2-80k_cityscapes-512x1024
+#   In Collection: FastFCN
+#   Results:
+#     Task: Semantic Segmentation
+#     Dataset: Cityscapes
+#     Metrics:
+#       mIoU: 78.76
+#       mIoU(ms+flip): 80.03
+#   Config: configs/fastfcn/fastfcn_r50-d32_jpu_psp_4xb2-80k_cityscapes-512x1024.py
+#   Metadata:
+#     Training Data: Cityscapes
+#     Batch Size: 8
+#     Architecture:
+#     - R-50-D32
+#     - FastFCN
+#     - PSPNet
+#     Training Resources: 4x V100 GPUS
+#     Memory (GB): 9.94
+#   Weights: https://download.openmmlab.com/mmsegmentation/v0.5/fastfcn/fastfcn_r50-d32_jpu_psp_4x4_512x1024_80k_cityscapes/fastfcn_r50-d32_jpu_psp_4x4_512x1024_80k_cityscapes_20210925_061841-77e87b0a.pth
+#   Training log: https://download.openmmlab.com/mmsegmentation/v0.5/fastfcn/fastfcn_r50-d32_jpu_psp_4x4_512x1024_80k_cityscapes/fastfcn_r50-d32_jpu_psp_4x4_512x1024_80k_cityscapes_20210925_061841.log.json
+#   Paper:
+#     Title: 'FastFCN: Rethinking Dilated Convolution in the Backbone for Semantic Segmentation'
+#     URL: https://arxiv.org/abs/1903.11816
+#   Code: https://github.com/open-mmlab/mmsegmentation/blob/v0.18.0/mmseg/models/necks/jpu.py#L12
+#   Framework: PyTorch
 - Name: fastfcn_r50-d32_jpu_enc_4xb2-80k_cityscapes-512x1024
   In Collection: FastFCN
   Results:
@@ -137,31 +137,31 @@ Models:
     URL: https://arxiv.org/abs/1903.11816
   Code: https://github.com/open-mmlab/mmsegmentation/blob/v0.18.0/mmseg/models/necks/jpu.py#L12
   Framework: PyTorch
-- Name: fastfcn_r50-d32_jpu_enc_4xb2-80k_cityscapes-512x1024
-  In Collection: FastFCN
-  Results:
-    Task: Semantic Segmentation
-    Dataset: Cityscapes
-    Metrics:
-      mIoU: 78.6
-      mIoU(ms+flip): 80.25
-  Config: configs/fastfcn/fastfcn_r50-d32_jpu_enc_4xb2-80k_cityscapes-512x1024.py
-  Metadata:
-    Training Data: Cityscapes
-    Batch Size: 8
-    Architecture:
-    - R-50-D32
-    - FastFCN
-    - EncNet
-    Training Resources: 4x V100 GPUS
-    Memory (GB): 15.45
-  Weights: https://download.openmmlab.com/mmsegmentation/v0.5/fastfcn/fastfcn_r50-d32_jpu_enc_4x4_512x1024_80k_cityscapes/fastfcn_r50-d32_jpu_enc_4x4_512x1024_80k_cityscapes_20210926_093217-e1eb6dbb.pth
-  Training log: https://download.openmmlab.com/mmsegmentation/v0.5/fastfcn/fastfcn_r50-d32_jpu_enc_4x4_512x1024_80k_cityscapes/fastfcn_r50-d32_jpu_enc_4x4_512x1024_80k_cityscapes_20210926_093217.log.json
-  Paper:
-    Title: 'FastFCN: Rethinking Dilated Convolution in the Backbone for Semantic Segmentation'
-    URL: https://arxiv.org/abs/1903.11816
-  Code: https://github.com/open-mmlab/mmsegmentation/blob/v0.18.0/mmseg/models/necks/jpu.py#L12
-  Framework: PyTorch
+# - Name: fastfcn_r50-d32_jpu_enc_4xb2-80k_cityscapes-512x1024
+#   In Collection: FastFCN
+#   Results:
+#     Task: Semantic Segmentation
+#     Dataset: Cityscapes
+#     Metrics:
+#       mIoU: 78.6
+#       mIoU(ms+flip): 80.25
+#   Config: configs/fastfcn/fastfcn_r50-d32_jpu_enc_4xb2-80k_cityscapes-512x1024.py
+#   Metadata:
+#     Training Data: Cityscapes
+#     Batch Size: 8
+#     Architecture:
+#     - R-50-D32
+#     - FastFCN
+#     - EncNet
+#     Training Resources: 4x V100 GPUS
+#     Memory (GB): 15.45
+#   Weights: https://download.openmmlab.com/mmsegmentation/v0.5/fastfcn/fastfcn_r50-d32_jpu_enc_4x4_512x1024_80k_cityscapes/fastfcn_r50-d32_jpu_enc_4x4_512x1024_80k_cityscapes_20210926_093217-e1eb6dbb.pth
+#   Training log: https://download.openmmlab.com/mmsegmentation/v0.5/fastfcn/fastfcn_r50-d32_jpu_enc_4x4_512x1024_80k_cityscapes/fastfcn_r50-d32_jpu_enc_4x4_512x1024_80k_cityscapes_20210926_093217.log.json
+#   Paper:
+#     Title: 'FastFCN: Rethinking Dilated Convolution in the Backbone for Semantic Segmentation'
+#     URL: https://arxiv.org/abs/1903.11816
+#   Code: https://github.com/open-mmlab/mmsegmentation/blob/v0.18.0/mmseg/models/necks/jpu.py#L12
+#   Framework: PyTorch
 - Name: fastfcn_r50-d32_jpu_aspp_4xb4-80k_ade20k-512x512
   In Collection: FastFCN
   Results:

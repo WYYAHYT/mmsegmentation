@@ -450,30 +450,30 @@ Models:
     URL: https://arxiv.org/abs/1612.01105
   Code: https://github.com/open-mmlab/mmsegmentation/blob/v0.17.0/mmseg/models/decode_heads/psp_head.py#L63
   Framework: PyTorch
-- Name: pspnet_r50b-d32_4xb2-80k_cityscapes-512x1024
-  In Collection: PSPNet
-  Results:
-    Task: Semantic Segmentation
-    Dataset: Cityscapes
-    Metrics:
-      mIoU: 73.88
-      mIoU(ms+flip): 76.85
-  Config: configs/pspnet/pspnet_r50b-d32_4xb2-80k_cityscapes-512x1024.py
-  Metadata:
-    Training Data: Cityscapes
-    Batch Size: 8
-    Architecture:
-    - R-50-D32
-    - PSPNet
-    Training Resources: 4x V100 GPUS
-    Memory (GB): 3.0
-  Weights: https://download.openmmlab.com/mmsegmentation/v0.5/pspnet/pspnet_r50-d32_512x1024_80k_cityscapes/pspnet_r50-d32_512x1024_80k_cityscapes_20220316_224840-9092b254.pth
-  Training log: https://download.openmmlab.com/mmsegmentation/v0.5/pspnet/pspnet_r50-d32_512x1024_80k_cityscapes/pspnet_r50-d32_512x1024_80k_cityscapes_20220316_224840.log.json
-  Paper:
-    Title: Pyramid Scene Parsing Network
-    URL: https://arxiv.org/abs/1612.01105
-  Code: https://github.com/open-mmlab/mmsegmentation/blob/v0.17.0/mmseg/models/decode_heads/psp_head.py#L63
-  Framework: PyTorch
+# - Name: pspnet_r50b-d32_4xb2-80k_cityscapes-512x1024
+#   In Collection: PSPNet
+#   Results:
+#     Task: Semantic Segmentation
+#     Dataset: Cityscapes
+#     Metrics:
+#       mIoU: 73.88
+#       mIoU(ms+flip): 76.85
+#   Config: configs/pspnet/pspnet_r50b-d32_4xb2-80k_cityscapes-512x1024.py
+#   Metadata:
+#     Training Data: Cityscapes
+#     Batch Size: 8
+#     Architecture:
+#     - R-50-D32
+#     - PSPNet
+#     Training Resources: 4x V100 GPUS
+#     Memory (GB): 3.0
+#   Weights: https://download.openmmlab.com/mmsegmentation/v0.5/pspnet/pspnet_r50-d32_512x1024_80k_cityscapes/pspnet_r50-d32_512x1024_80k_cityscapes_20220316_224840-9092b254.pth
+#   Training log: https://download.openmmlab.com/mmsegmentation/v0.5/pspnet/pspnet_r50-d32_512x1024_80k_cityscapes/pspnet_r50-d32_512x1024_80k_cityscapes_20220316_224840.log.json
+#   Paper:
+#     Title: Pyramid Scene Parsing Network
+#     URL: https://arxiv.org/abs/1612.01105
+#   Code: https://github.com/open-mmlab/mmsegmentation/blob/v0.17.0/mmseg/models/decode_heads/psp_head.py#L63
+#   Framework: PyTorch
 - Name: pspnet_r50-d32_rsb_4xb2-adamw-80k_cityscapes-512x1024
   In Collection: PSPNet
   Results:

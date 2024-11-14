@@ -365,52 +365,52 @@ Models:
     URL: https://arxiv.org/abs/1909.11065
   Code: https://github.com/open-mmlab/mmsegmentation/blob/v0.17.0/mmseg/models/decode_heads/ocr_head.py#L86
   Framework: PyTorch
-- Name: ocrnet_hr18s_4xb4-80k_ade20k-512x512
-  In Collection: OCRNet
-  Results:
-    Task: Semantic Segmentation
-    Dataset: ADE20K
-    Metrics:
-      mIoU: 37.19
-      mIoU(ms+flip): 38.4
-  Config: configs/ocrnet/ocrnet_hr18s_4xb4-80k_ade20k-512x512.py
-  Metadata:
-    Training Data: ADE20K
-    Batch Size: 16
-    Architecture:
-    - HRNetV2p-W18-Small
-    - OCRNet
-    Training Resources: 4x V100 GPUS
-  Weights: https://download.openmmlab.com/mmsegmentation/v0.5/ocrnet/ocrnet_hr18s_512x512_160k_ade20k/ocrnet_hr18s_512x512_160k_ade20k_20200615_184505-8e913058.pth
-  Training log: https://download.openmmlab.com/mmsegmentation/v0.5/ocrnet/ocrnet_hr18s_512x512_160k_ade20k/ocrnet_hr18s_512x512_160k_ade20k_20200615_184505.log.json
-  Paper:
-    Title: Object-Contextual Representations for Semantic Segmentation
-    URL: https://arxiv.org/abs/1909.11065
-  Code: https://github.com/open-mmlab/mmsegmentation/blob/v0.17.0/mmseg/models/decode_heads/ocr_head.py#L86
-  Framework: PyTorch
-- Name: ocrnet_hr18_4xb4-80k_ade20k-512x512
-  In Collection: OCRNet
-  Results:
-    Task: Semantic Segmentation
-    Dataset: ADE20K
-    Metrics:
-      mIoU: 39.32
-      mIoU(ms+flip): 40.8
-  Config: configs/ocrnet/ocrnet_hr18_4xb4-80k_ade20k-512x512.py
-  Metadata:
-    Training Data: ADE20K
-    Batch Size: 16
-    Architecture:
-    - HRNetV2p-W18
-    - OCRNet
-    Training Resources: 4x V100 GPUS
-  Weights: https://download.openmmlab.com/mmsegmentation/v0.5/ocrnet/ocrnet_hr18_512x512_160k_ade20k/ocrnet_hr18_512x512_160k_ade20k_20200615_200940-d8fcd9d1.pth
-  Training log: https://download.openmmlab.com/mmsegmentation/v0.5/ocrnet/ocrnet_hr18_512x512_160k_ade20k/ocrnet_hr18_512x512_160k_ade20k_20200615_200940.log.json
-  Paper:
-    Title: Object-Contextual Representations for Semantic Segmentation
-    URL: https://arxiv.org/abs/1909.11065
-  Code: https://github.com/open-mmlab/mmsegmentation/blob/v0.17.0/mmseg/models/decode_heads/ocr_head.py#L86
-  Framework: PyTorch
+# - Name: ocrnet_hr18s_4xb4-80k_ade20k-512x512
+#   In Collection: OCRNet
+#   Results:
+#     Task: Semantic Segmentation
+#     Dataset: ADE20K
+#     Metrics:
+#       mIoU: 37.19
+#       mIoU(ms+flip): 38.4
+#   Config: configs/ocrnet/ocrnet_hr18s_4xb4-80k_ade20k-512x512.py
+#   Metadata:
+#     Training Data: ADE20K
+#     Batch Size: 16
+#     Architecture:
+#     - HRNetV2p-W18-Small
+#     - OCRNet
+#     Training Resources: 4x V100 GPUS
+#   Weights: https://download.openmmlab.com/mmsegmentation/v0.5/ocrnet/ocrnet_hr18s_512x512_160k_ade20k/ocrnet_hr18s_512x512_160k_ade20k_20200615_184505-8e913058.pth
+#   Training log: https://download.openmmlab.com/mmsegmentation/v0.5/ocrnet/ocrnet_hr18s_512x512_160k_ade20k/ocrnet_hr18s_512x512_160k_ade20k_20200615_184505.log.json
+#   Paper:
+#     Title: Object-Contextual Representations for Semantic Segmentation
+#     URL: https://arxiv.org/abs/1909.11065
+#   Code: https://github.com/open-mmlab/mmsegmentation/blob/v0.17.0/mmseg/models/decode_heads/ocr_head.py#L86
+#   Framework: PyTorch
+# - Name: ocrnet_hr18_4xb4-80k_ade20k-512x512
+#   In Collection: OCRNet
+#   Results:
+#     Task: Semantic Segmentation
+#     Dataset: ADE20K
+#     Metrics:
+#       mIoU: 39.32
+#       mIoU(ms+flip): 40.8
+#   Config: configs/ocrnet/ocrnet_hr18_4xb4-80k_ade20k-512x512.py
+#   Metadata:
+#     Training Data: ADE20K
+#     Batch Size: 16
+#     Architecture:
+#     - HRNetV2p-W18
+#     - OCRNet
+#     Training Resources: 4x V100 GPUS
+#   Weights: https://download.openmmlab.com/mmsegmentation/v0.5/ocrnet/ocrnet_hr18_512x512_160k_ade20k/ocrnet_hr18_512x512_160k_ade20k_20200615_200940-d8fcd9d1.pth
+#   Training log: https://download.openmmlab.com/mmsegmentation/v0.5/ocrnet/ocrnet_hr18_512x512_160k_ade20k/ocrnet_hr18_512x512_160k_ade20k_20200615_200940.log.json
+#   Paper:
+#     Title: Object-Contextual Representations for Semantic Segmentation
+#     URL: https://arxiv.org/abs/1909.11065
+#   Code: https://github.com/open-mmlab/mmsegmentation/blob/v0.17.0/mmseg/models/decode_heads/ocr_head.py#L86
+#   Framework: PyTorch
 - Name: ocrnet_hr48_4xb4-160k_ade20k-512x512
   In Collection: OCRNet
   Results:
