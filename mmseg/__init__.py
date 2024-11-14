@@ -5,6 +5,7 @@ import mmcv
 import mmengine
 from packaging.version import parse
 
+from .apis import *
 from .version import __version__, version_info
 
 MMCV_MIN = '2.0.0rc4'
